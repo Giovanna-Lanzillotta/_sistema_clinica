@@ -37,3 +37,26 @@ criação
 mensagem
 ativo
 imagem
+
+[ESPECIALIDADE]
+ortopedia
+cardiologia
+neurologia
+clinico geral
+
+[MEDICO]
+nome
+sobrenome
+crm
+email
+data do cadastro do médico
+telefone
+imagem
+ativo
+mensagem
+
+[CONSULTA]
+
+[ENDEREÇO]
+
+
