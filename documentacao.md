@@ -59,4 +59,8 @@ mensagem
 
 [ENDEREÇO]
 
+# Criar uma view que vai redenderizar um arquivo chamado seu nome.html
+# No seunome.html coloque um h1 com o seu nome
+# Em seguida, crie uma url e chame esse arquivo seunome.html
+
 

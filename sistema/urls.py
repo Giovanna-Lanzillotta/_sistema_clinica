@@ -8,4 +8,5 @@ app_name = 'sistema'
 
 urlpatterns = [
     path('', views.index, name = 'index'),
+    path('seunome/', views.seunome),
 ]

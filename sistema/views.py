@@ -9,3 +9,10 @@ def index(request):
     )
 
 # REQUEST - RESPONSE - RENDER
+
+#exercicio view com meu nome
+def seunome(request):
+    return render(
+        request,
+        'global/seunome.html',
+    )
