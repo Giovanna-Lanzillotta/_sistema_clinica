@@ -23,3 +23,8 @@ class EspecialidadeAdmin(admin.ModelAdmin):
 class MedicoAdmin(admin.ModelAdmin):
     list_display = ('id', 'nome','sobrenome','crm','email','telefone','ativo',)
     list_editable = ('ativo',)
+
+# Aqui fica o registro do model da consulta
+@admin.register(models.Consulta)
+class ConsultaAdmin(admin.ModelAdmin):
+    list_display = ('id', 'paciente_id', 'medico_id', 'status',)
