@@ -1,12 +1,14 @@
 #urls.py do sistema
 from django.urls import path
 
-# Importação do módulo views.py, onde tem a view index
+# Importação do diretorio views.py, onde tem a view index e a view listarPaciente
 from sistema import views
 
 app_name = 'sistema'
 
 urlpatterns = [
     path('', views.index, name = 'index'),
-    path('seunome/', views.seunome),
+    path('listar/',views.listarPacientes,name='listar'),
+    path('medicos/',views.listarMedicos,name='medicos'),
+   
 ]
