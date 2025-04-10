@@ -1,6 +1,6 @@
 {% block conteudo %}
     <div class="responsive-table">
-        <table class="medicos-table">
+        <table class="pacientes-table">
             <caption class="table-caption">
                 Listagem de Médicos
             </caption>
@@ -9,8 +9,8 @@
                     <th class="table-header">ID</th>
                     <th class="table-header">Nome</th>
                     <th class="table-header">Sobrenome</th>
+                    <th class="table-header">CRM</th>
                     <th class="table-header">Email</th>
-                    <th class="table-header">Telefone</th>
                 </tr>
             </thead>
             <tbody>
@@ -19,8 +19,8 @@
                         <td class="table-cel"> {{medico.id}}</td>
                         <td class="table-cel"> {{medico.nome}}</td>
                         <td class="table-cel"> {{medico.sobrenome}}</td>
+                        <td class="table-cel"> {{medico.crm}}</td>
                         <td class="table-cel"> {{medico.email}}</td>
-                        <td class="table-cel"> {{medico.telefone}}</td>
                     </tr>
                 
                 
