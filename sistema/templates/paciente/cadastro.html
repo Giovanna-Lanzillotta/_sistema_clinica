@@ -1,0 +1,13 @@
+<h1>Cadastrar Pacientes</h1>
+
+<!-- Formulário que envia os dados via POST e aceita envio de arquivos-->
+<form method = "POST" enctype ="multipart/form-data">
+    {% csrf_token %} <!-- Proteção contra ataques do tipo CSRF(obrigatório) -->
+
+    <!-- Exibição dos campos para enviar o formulário-->
+
+    {{ form.as_p }}
+    <!-- Exibe as informações do form como parágrafos  -->
+
+    <button type="submit">Salvar</button>
+</form>
