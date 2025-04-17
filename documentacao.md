@@ -70,3 +70,19 @@ mensagem
 - acessar todos os objetos(instâncias) que foram criadas a partir da classe Paciente.
 - Renderizar todos esses contatos no arquivo listar.html
 
+## AULA DO DIA 17/04/2025
+
+# METODOLOGIAS ÁGEIS
+
+- CASCADE -> tradicional,apresenta o projeto final ao cliente,o cliente não participa de nenhuma etapa.
+escolhe um framework de metodologias ágeis para utilizar
+- KABAN
+- XP
+- LUNA
+- STAR
+- # SCRUM # scrum master é um facilitador
+- `daily` - acontece todo dia uma reunião. dura de 10 a 15 minutos. falar como esta sua tarefa.momento de pedir ajuda.ver as tarefas em aberto, ver datas de entrega,
+- `sprint` - aninhamento inicial do projeto,reunião 15 a 15 dias ou 1 vez por mês, presença de todo mundo da equipe, `backlog` (escolher as ações que vão ser feitas), Dura de uma hora
+a uma hora e meia.
+- `sprint review` - é a entrega. Dura de uma hora a uma hora e meia.
+- `refinamento` - ver o que deu certo e o que pode melhorar. uma vez por mês de uma hora a uma hora e meia.
