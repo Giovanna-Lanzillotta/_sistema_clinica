@@ -13,6 +13,7 @@
 9. Para instalar o pillow no projeto -> python -m pip install PIllow
 10. Para gerar o pacote de migração -> python manage.py makemigrations
 11. Para rodar as alterações desse pacote -> python manage.py migrate
+12. Para coletar todos os arquivos estáticos do projeto -> python manage.py collectstatic
 
 # PRINCIPAIS ARQUIVOS/PASTAS DO PROJECT
 
@@ -86,3 +87,9 @@ escolhe um framework de metodologias ágeis para utilizar
 a uma hora e meia.
 - `sprint review` - é a entrega. Dura de uma hora a uma hora e meia.
 - `refinamento` - ver o que deu certo e o que pode melhorar. uma vez por mês de uma hora a uma hora e meia.
+
+## AULA DO DIA 24/04/2025
+
+1. Incluir alguns comandos no settings.py para tratar a imagem
+2. Ir no urls.py e incluir uma rota dinâmica para as imagens
+3. Ir no listar.html e incluir o campo imagem

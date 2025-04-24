@@ -16,6 +16,8 @@ Including another URLconf
 """
 #urls.py do project 
 # São as importações realizadas de forma a utilizar partes do Django.
+from django.conf import settings #para acessar o settings do projeto
+from django.conf.urls.static import static 
 from django.contrib import admin
 from django.urls import path, include
 
@@ -26,3 +28,6 @@ urlpatterns = [
 ]
 
 # path() -> É um método do django que permite realizar a inserção de uma url.
+
+if settings.DEBUG: 
+    urlpatterns += static(settings.MEDIA_URL,document_root=settings.MEDIA_ROOT)
