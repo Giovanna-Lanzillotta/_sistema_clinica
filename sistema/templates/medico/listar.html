@@ -1,3 +1,15 @@
+{% load static %} 
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    {% include "global/partials/_head.html" %}
+</head>
+<body>
+
+    <header>
+        {% include "global/partials/_header.html" %}
+       </header>
+
 {% block conteudo %}
     <div class="responsive-table">
         <table class="pacientes-table">
@@ -32,3 +44,9 @@
     </div>
     
 {% endblock conteudo %}
+
+<footer>
+    {% include "global/partials/_footer.html" %}
+   </footer>
+</body>
+</html>

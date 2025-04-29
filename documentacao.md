@@ -93,3 +93,5 @@ a uma hora e meia.
 1. Incluir alguns comandos no settings.py para tratar a imagem
 2. Ir no urls.py e incluir uma rota dinâmica para as imagens
 3. Ir no listar.html e incluir o campo imagem
+
+`CTRL + f` -> Para pesquisar no arquivo do vscode

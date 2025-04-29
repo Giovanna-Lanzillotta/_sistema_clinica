@@ -1,3 +1,15 @@
+{% load static %} 
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    {% include "global/partials/_head.html" %}
+</head>
+<body>
+
+    <header>
+        {% include "global/partials/_header.html" %}
+       </header>
+
 <h1>Cadastrar Pacientes</h1>
 
 <!-- Formulário que envia os dados via POST e aceita envio de arquivos-->
@@ -11,3 +23,10 @@
 
     <button type="submit">Salvar</button>
 </form>
+
+
+<footer>
+    {% include "global/partials/_footer.html" %}
+   </footer>
+</body>
+</html>

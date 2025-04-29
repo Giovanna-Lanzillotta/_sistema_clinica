@@ -1,9 +1,22 @@
+{% load static %} 
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    {% include "global/partials/_head.html" %}
+</head>
+<body>
+
+    <header>
+        {% include "global/partials/_header.html" %}
+       </header>
+
 {% block conteudo %}
     <div class="responsive-table">
         <table class="pacientes-table">
             <caption class="table-caption">
                 Listagem de Pacientes
             </caption>
+            
             <thead>
                 <tr class="table-row table-row-header" >
                     <th class="table-header">ID</th>
@@ -44,6 +57,11 @@
 {% endblock conteudo %}
 
 
+<footer>
+    {% include "global/partials/_footer.html" %}
+   </footer>
+</body>
+</html>
 
 
 
